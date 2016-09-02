@@ -1,0 +1,204 @@
+/**************************************** Homepage CSS ****************************************/
+
+p{
+text-align:justify;
+line-height:19px;
+padding:0px;
+margin:0px;
+}
+h2{
+padding:0px 0 10px 0; margin:0px; color:#B52025; font-size:20px; font-weight:normal;
+}
+
+#main_container{
+width:977px;
+background:url(../images/center_bg_repeat.gif) repeat-y center;
+}
+
+/*-----------------middle_banner----------------------------*/
+
+.middle_banner{
+width:977px;
+height:304px;
+background:url(../images/middle_banner_bg.gif) no-repeat center;
+margin:0 0 30px 0;
+}
+
+/*----------------------slider---------------------------*/
+
+.featured_slider { width:965px; margin:auto; float:left; margin:18px 0 0 6px; }
+ul, li{
+padding:0px;
+margin:0px;
+list-style:none;
+}
+#featured_border { position: relative; border: none; padding:0px; height:280px; margin: 0px; }
+#featured_wrapper { position: relative; width: 100%; height: 100%; overflow: hidden; }
+#featured_images { position: absolute; left: 0; top: 0; }
+#featured_images li { float: left; }
+#featured_positioner_desc { width:965px; height: 280px; position: absolute; top: 0px; left: 0px; }
+#featured_wrapper_desc { width: 100%; height:280px; position: relative; overflow: hidden; }
+#featured_desc { position: absolute; left: 0; bottom: 0;  padding:0px; margin:0px; }
+#featured_desc li { width: 965px; float: left;padding:0px; margin:0px; }
+#featured_desc li div { margin:0px 20px 20px 20px; padding:10px; width:250px;  background: url(../images/featured-desc-bg.png); }
+#featured_desc li h2 {
+color:#FFFFFF;
+font-size:18px;
+padding:0px 0 5px 0;
+margin:0px; 
+}
+#featured_desc li p {
+color:#FFFFFF;
+font-size:18px;
+padding:0px 0 10px 0;
+margin:0px;
+line-height:18px;
+}
+
+#featured_buttons { position: absolute; top: 15px; right: 15px; width: auto; padding:0; list-style:none;}
+#featured_buttons li { width: 22px; height: 22px; background: url(../images/featured-button-off.png); float: left; margin-left: 3px; text-align:center; font-size:12px; color:#FFFFFF; line-height:22px; cursor: pointer; }
+#featured_buttons li.clicked { background: url(../images/featured-button-on.png); }
+
+/****************************************  content  ************************************/
+
+.home_section_left{
+width:270px;
+height:auto;
+float:left;
+margin:0 14px 0 14px;
+padding:0 10px 20px 10px;
+background:url(../images/home_block_bg.gif) no-repeat center bottom;
+}
+.home_section_left p{
+clear:both;
+}
+
+.home_section_left ul
+{
+list-style-type:none;
+padding:0px;
+}
+.home_section_left ul li
+{
+background-image:url(../images/arrow.gif);
+background-repeat:no-repeat;
+background-position:0px 5px; 
+padding:0 0 0 4px;
+}
+.home_section_left ul li a{
+margin: 0 0 0 10px;
+text-decoration:none;
+font-size:12px; color:#333333;
+}
+.home_section_left p span{
+font-weight:bold;
+}
+img.home_section_icon{
+width:63px;
+float:left;
+}
+a.home_title{
+text-decoration:none;
+width:190px;
+float:left;
+font-size:20px;
+padding:20px 0 0px 10px; margin:0px;
+color:#B52025;
+}
+.home_subtitle{
+width:190px;
+text-decoration:none;
+float:left;padding:0px 0 0px 10px; font-size:12px; color:#a7a7a7;
+}
+.home_section_thumb{
+float:left; clear:both;
+padding:2px; text-align:center;margin:10px 0 10px 0; border:1px #dcdcdc solid;
+}
+a.more{
+float:right;
+}
+img.projects{
+float:left;
+padding:2px;margin:0 10px 0 0; border:1px #dcdcdc solid;
+}
+
+.left_block{
+width:295px;
+float:left;
+padding:20px 20px 10px 15px;
+}
+.left_block_wide{
+width:625px;
+float:left;
+padding:20px 20px 10px 15px;
+}
+
+.right_block{
+border-left:1px solid #e1e1e1;
+width:270px;
+float:right;
+padding:20px 20px 10px 0;
+}
+.right_block p{
+clear:both;
+}
+.right_block ul
+{
+list-style-type:none;
+padding:0px;
+margin: 0 0 0 20px;
+}
+.right_block ul li
+{
+background-image:url(../images/arrow.gif);
+background-repeat:no-repeat;
+background-position:0px 5px; 
+padding:0 0 4px 4px;
+}
+.right_block ul li a{
+margin: 0 0 0 10px;
+text-decoration:none;
+font-size:12px; color:#333333;
+}
+img.pic{
+border:3px #22496a solid;
+margin:0 0 10px 0;
+}
+
+
+/**********************************  calendar  ************************************************/
+.main {
+width:95%;
+margin: 20px 0 0 10px;
+}
+
+.month {
+background-color:#3399FF;
+font:bold 12px verdana;
+color:white;
+}
+
+.daysofweek {
+background-color:#D4DCE6;
+font:bold 12px verdana;
+color:black;
+}
+
+.days {
+font-size: 12px;
+font-family:verdana;
+color:black;
+background-color: #EBF5FF;
+padding: 2px;
+}
+
+.days #today{
+font-weight: bold;
+color: red;
+}
+
+/*************************************************  Video  *********************************************/
+
+video {
+margin: 0px 0 20px 20px
+}

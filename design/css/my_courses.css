@@ -1,0 +1,96 @@
+table {
+
+	width:75%;
+	margin:auto;
+	margin-bottom: 8%;
+	background-color:#ff;
+	border-radius:20px;
+}
+
+.content{
+width:90%;
+margin:auto;
+}
+
+.my_courses{
+margin-top:20px;
+color:#B52025;
+font-size: 15px;
+}
+
+
+tbody, tfoot {
+	font-size: medium;
+	background-color:#FFFFFF;
+	border-radius:20px;
+	border:20px  black;
+}
+
+th {
+	font-size : large;
+	border:2px  black;
+	padding:5px;
+	background-color:#B52025;
+	width:25%;
+	border-radius:10px;
+}
+
+td {
+	border:1px solid #6495ed;
+	padding:5px;
+	text-align:center;
+	border-radius:10px;
+}
+
+
+
+th.ico {
+	background-color:#FFFFFF;
+	width: 5%;
+}
+
+.part_title {
+	width: 75%;
+}
+
+
+
+label{
+	text-align: center;
+	width: auto;
+	float: left;
+	margin-top: 2px;
+	margin-right: 2px;
+}
+
+input[type="text","file"]{
+	width: 65%;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	display: block;
+    margin: auto;
+}
+
+
+input[type="submit"]{
+	display: block;
+	width: 35%;
+	margin-bottom:20px;
+	margin-top: 10px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#B52025;
+	color:#FFFFFF;
+	text-align:center;
+	padding:3px 10px 3px 10px;
+	border:1px black solid;
+	cursor:pointer;
+}
+
+#attention{
+color:red 
+}
+
+
+

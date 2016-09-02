@@ -1,0 +1,151 @@
+header
+{
+
+}
+
+.article2
+{
+
+width: 300px;
+display: inline-block;
+
+
+}
+
+.trait
+{
+width: 90%;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2px;
+border: 1px #B52025 solid;
+}
+
+.BrowseCourses
+{
+float: left;
+
+
+padding-bottom: 20px;
+}
+
+article
+{
+
+
+margin-left: 2em;
+
+}
+
+.choixDeroulant
+{
+
+clear: both;
+
+width: 18.7cm;
+}
+
+.selection_c1
+{
+margin-right: 3em;
+}
+
+.button_search
+{
+margin-left: 450px;
+
+}
+
+.retour_ligne
+{
+clear:both;
+}
+
+
+.backgroundd
+{
+background-color: white;
+
+}
+
+.lien_titre
+{
+font-size: 20px;
+color: #B52025;
+text-decoration: none;
+}
+
+.Author
+{
+white-space: pre;
+font-weight: bold;
+font-size: 15px;
+}
+
+
+.etude
+{
+vertical-align: top;
+margin-left: 20px;
+
+width: 40%;
+} 
+
+.resultat
+{
+
+margin-left: 3px;
+font-weight: bold;
+color: #A9A9A9;
+vertical-align: top;
+}
+
+.Noresearch
+{
+color: #B52025;
+font-weight: bold;
+
+margin-left: 310px;
+
+
+
+
+} 
+
+.Theme
+{
+font-family: Trebuchet MS;
+font-style: italic;
+font-size: 18px;
+white-space: pre;
+
+}
+
+.Parts
+{
+font-family: Trebuchet MS;
+font-style: italic;
+font-size: 13px;
+white-space: pre;
+
+}
+.titre
+{
+
+
+
+}
+
+.logo_part
+{
+vertical-align: middle;
+white-space: pre;
+}
+
+
+.logo_part_b
+{
+
+}
+

@@ -1,0 +1,152 @@
+
+.trait
+{
+width: 90%;
+margin-top: 10px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 2px;
+border: 1px #B52025 solid;
+clear:both;
+}
+
+.info
+{
+margin-right: 90px;
+font-size: 20px;
+  
+}
+
+.I
+{
+font-weight: bold;
+}
+
+.bloc_i
+{
+margin-left: 30px;
+margin-top: 10px;
+}
+
+.part
+{
+margin-left: 30px;
+font-size: 25px;
+font-family: Trebuchet MS;
+margin-top: 10px;
+text-shadow:1px 7px 10px rgba(85,85,85,1);
+color:#ae1b1b;
+
+}
+
+.DU
+{
+margin-left: 30px;
+white-space: pre;
+
+}
+
+.bloc_part
+{
+margin-top: 25px;
+
+
+float: left;
+}
+
+.pdf
+{
+
+
+float:left;
+
+}
+
+.ssbloc
+{
+
+
+width: 6cm;
+
+
+}
+
+.pdf_image
+{
+
+
+width: 12cm;
+
+opacity: 0.5;
+position: absolute;
+margin-left: 8cm;
+
+}
+
+
+.right_box
+{
+
+width: 6cm;
+margin-top: 25px;
+float: right;
+padding-bottom: 90px;
+border: 4px white outset;
+
+}
+
+.page
+{
+min-height: 12cm;
+border: 1px white solid;
+}
+
+.titrerelated ,.recom_quizzes
+{
+font-size: 17px;
+font-weight:bold;
+text-decoration: underline;
+}
+
+.titrecourses ,.titre_quizzes
+{
+font-weight: bold;
+font-style: italic;
+font-family: Trebuchet MS;
+font-size: 17px;
+color: #B52025;
+}
+
+object
+{
+border: 2px green solid;
+margin-left: 6cm;
+}
+
+.pagee
+{
+color:black;
+background-color: white;
+background-image:url(images/pdf.png);
+background-repeat: no-repeat;
+background-position: center center;
+
+}
+
+.VL
+{
+vertical-align: top;
+
+}
+
+.pdfd
+{
+
+width: 20%;
+}
+
+.fermer
+{
+margin-left: 90%;
+}
+

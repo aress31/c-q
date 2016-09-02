@@ -1,0 +1,153 @@
+/**************************************** General CSS ****************************************/
+
+/**************************************** Structure ******************************************/
+
+body {
+	background:url(../images/bg.gif) repeat;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+#main_container {
+	height: 100%;
+	width: 100%;
+}
+
+section.left {
+	float: left;
+	width: 70%;
+	height: 100%;
+	border-right: 1px solid #B52025;
+}
+
+aside {
+	float:right;
+	width: 29.8%;
+	background-color: white;
+	height:100%;
+}
+
+#content {
+	display:inline;
+	text-align: center;
+}
+
+/***************************************** Text *****************************************/
+
+em {
+	word-wrap: break-word;
+}
+
+p {
+	color: #B52025;
+	text-align: center;
+	font-size:medium; 
+	font-weight: bolder;
+}
+
+h1{
+	color: #B52025;
+	font-size:medium; 
+	font-weight: bolder;
+}
+
+/**************************************** JavaScript *****************************************/
+
+#feedback { 
+	font-size: 1.4em; 
+}
+
+#selectable .ui-selecting { 
+	background: #FF2D34;
+}
+
+#selectable .ui-selected { 
+	background: #B52025; 
+	color: white; 
+}
+
+#selectable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 450px; 
+}
+
+#selectable li { 
+	margin: 3px; 
+	padding: 1px; 
+	float: left; 
+	width: 160px;
+	height: 180px; 
+	font-size: 2em;
+	text-align: center; 
+}
+
+/************************************** Logo/Image *************************************/
+
+#avatar{
+	margin-top: 5px;
+	margin-bottom: 10px;
+	margin-left: 3px;
+	margin-right:5px;
+	width: 150px; 
+	height:165px; 
+	background-size: cover;
+	border-radius:20px;
+	border:2px #dcdcdc solid ;
+}
+
+#close{
+	display:block;
+	margin:auto;
+}
+
+/***************************************** Form *****************************************/
+
+label{
+	color: #878787;
+}
+
+select{
+	width: 75%;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	display: block;
+	text-align:center;
+	margin-top: 10px;
+	margin-right: auto;
+    margin-left: auto;
+	margin-bottom: 10px;
+}
+
+#right_submit{
+	display: block;
+	width: 35%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color:#B52025;
+	color:#FFFFFF;
+	text-align:center;
+	padding:3px 10px 3px 10px;
+	border:1px black solid;
+	cursor:pointer;
+}
+
+#left_submit{ 
+	display: block;
+	position: relative;
+	margin-top: 200px;
+	margin-right: auto;
+	margin-left: auto;
+	color:#ddd; 
+	font-size:25px; 
+	line-height:76px; 
+	text-shadow:0 1px 0 #fff; 
+	text-transform:uppercase; 
+	white-space:nowrap; 
+	cursor:pointer; 
+}

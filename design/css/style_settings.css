@@ -1,0 +1,164 @@
+body {
+background:url(../images/bg.gif) repeat;
+margin:0px;
+padding:0px;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000;
+}
+p{
+text-align:justify;
+line-height:19px;
+padding:80px 0px 0px 120px;
+margin:0px 0px 0px 0px;
+}
+h2{
+padding:0px 0 10px 0; margin:0px; color:#B52025; font-size:20px; font-weight:normal;
+}
+.clear{
+clear:both;
+}
+#wrap{
+width:977px;
+margin:20px auto auto auto;
+}
+.top_corner{
+width:976px;
+height:15px;
+background:url(../images/top_bg.gif) no-repeat center bottom;
+}
+#main_container{
+width:977px;
+background:url(../images/center_bg_repeat.gif) repeat-y center;
+}
+header{
+width:960px;
+margin:auto;
+height:90px;
+}
+#logo{
+width:350px;
+padding:10px 0 0 20px;
+float:left;
+}
+/*----------------------menu-------------------------*/
+nav{
+width:430px;
+float:right;
+padding:30px 0 0 0;
+}
+nav ul{
+list-style:none;padding:0px;margin:0px;display:block;
+}
+nav ul li{
+list-style:none;display:inline;float:left;width:auto;padding:0px;font-size:12px;
+}
+nav ul li a{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#000;text-align:center; height:31px; line-height:31px; 
+}
+nav ul li a:hover{
+background-color:#b52025;color:#fff;
+}
+nav ul li a.current{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#b52025;
+}
+
+/*-----------------------------footer------------------*/
+footer{
+clear:both;
+width:960px;
+margin:auto;
+background:url(../images/footer_bg.jpg) no-repeat center;
+height:65px;
+}
+.copyright{
+float:left;
+padding:30px 0 0 15px;
+color:#6996c0;
+}
+.copyright a{
+color: #2A1C11;
+text-decoration:none;
+}
+.footer_links{
+float:right;
+padding:30px 15px 0 0;
+}
+footer a{
+text-decoration:none;
+color: #2A1C11;
+padding-left:10px;
+}
+.footer_links a:hover{
+text-decoration:underline;
+color: #2A1C11;
+}
+
+
+/*	Simon DELAY	- settings page (ce dont j'ai eu besoin)	*/
+
+.center_content{
+width:960px;
+clear:both;
+margin:auto;
+padding:10px 0 20px 0;
+}
+
+.settings_left_content{
+width:400px;
+height:auto;
+float:left;
+margin:0 0px 0 14px;
+padding:0 0px 20px 10px;
+}
+/*haut	droite	bas	gauche*/
+
+.settings_right_content{
+width:440px;
+height:auto;
+float:left;
+margin:0px 0px 0 14px;
+padding:0px 0px 20px 10px;
+}
+
+img.settings_avatar_icon{
+width:100px;
+float:left;
+margin:0px 0px 0px 0px;
+padding:0px 5px 0px 0px;
+/*haut	droite	bas	gauche*/
+}
+
+.text_edit{
+width:200px;
+font-size:20px; font-weight:normal; color:#1573ED;
+/*border: hidden;*/
+}
+
+.edit{
+color:#999999;
+cursor:pointer; 
+}
+
+.save{
+color:#999999;
+cursor:pointer; 
+}
+
+.bouton_save_all{
+margin:20px 0px 0px 350px;
+width:100px;
+height:30px;
+}
+
+h1{
+padding:0px 0px 0px 0px; margin:0px; font-size:40px; font-weight:normal;
+}
+
+h3{
+padding:0px 0px 0px 0px; margin:0px; font-size:20px; font-weight:normal; color:#999999;
+}
+
+h4{
+padding:20px 10px 0px 10px; margin:0px 0px 0px 0px; font-size:18px; font-weight:normal; display: inline;
+}

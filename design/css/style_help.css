@@ -1,0 +1,191 @@
+body {
+background:url(../images/bg.gif) repeat;
+margin:0px;
+padding:0px;
+font-size:12px;
+font-family:Arial, Helvetica, sans-serif;
+color:#000;
+}
+p{
+text-align:justify;
+line-height:19px;
+padding:0px;
+margin:0px;
+}
+h2{
+padding:0px 0 10px 0; margin:0px; color:#B52025; font-size:20px; font-weight:normal;
+}
+.clear{
+clear:both;
+}
+#wrap{
+width:977px;
+margin:20px auto auto auto;
+}
+.top_corner{
+width:976px;
+height:15px;
+background:url(../images/top_bg.gif) no-repeat center bottom;
+}
+#main_container{
+width:977px;
+background:url(../images/center_bg_repeat.gif) repeat-y center;
+}
+header{
+width:960px;
+margin:auto;
+height:90px;
+}
+#logo{
+width:350px;
+padding:10px 0 0 20px;
+float:left;
+}
+/*----------------------menu-------------------------*/
+nav{
+width:430px;
+float:right;
+padding:30px 0 0 0;
+}
+nav ul{
+list-style:none;padding:0px;margin:0px;display:block;
+}
+nav ul li{
+list-style:none;display:inline;float:left;width:auto;padding:0px;font-size:12px;
+}
+nav ul li a{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#000;text-align:center; height:31px; line-height:31px; 
+}
+nav ul li a:hover{
+background-color:#b52025;color:#fff;
+}
+nav ul li a.current{
+float:left;text-decoration:none;padding:0px 10px 0 10px; margin:0px 4px 0 4px;color:#fff;text-align:center; height:31px; line-height:31px; background-color:#b52025;
+}
+
+/*-----------------------------footer------------------*/
+footer{
+clear:both;
+width:960px;
+margin:auto;
+background:url(../images/footer_bg.jpg) no-repeat center;
+height:65px;
+}
+.copyright{
+float:left;
+padding:30px 0 0 15px;
+color:#6996c0;
+}
+.copyright a{
+color: #2A1C11;
+text-decoration:none;
+}
+.footer_links{
+float:right;
+padding:30px 15px 0 0;
+}
+footer a{
+text-decoration:none;
+color: #2A1C11;
+padding-left:10px;
+}
+.footer_links a:hover{
+text-decoration:underline;
+color: #2A1C11;
+}
+
+
+
+/*	Simon DELAY	- help page (ce dont j'ai eu besoin)	*/
+
+.center_content{
+width:960px;
+clear:both;
+margin:auto;
+padding:10px 0 20px 0;
+}
+
+.help_content{
+width:900px;
+height:auto;
+float:left;
+margin:0 14px 0 14px;
+padding:0 10px 20px 10px;
+}
+
+.help_title{
+text-decoration:none;
+color:#000000;
+}
+
+img.help_section_icon{
+width:30px;
+float:left;
+margin:0px 0px 0px 0px;
+padding:0px 5px 0px 10px;
+/*haut	droite	bas	gauche*/
+}
+
+img.help_section_small_icon{
+width:auto;
+float:left;
+margin:1px 0px 0px 35px;
+padding:0px 5px 0px 10px;
+/*haut	droite	bas	gauche*/
+}
+
+
+.espace{
+margin:0px 0px 0px 45px;
+}
+
+.espace_2{
+margin:0px 0px 0px 66px;
+font-weight:bold;
+}
+
+.espace_3{
+margin:0px 0px 0px 76px;
+font-weight:bold;
+}
+
+h1{
+padding:0px 0 10px 0; margin:0px; font-size:40px; font-weight:normal;
+}
+
+h3{
+padding:3px 0 10px 0; margin:0px; font-size:20px; font-weight:normal;
+}
+
+h5{
+padding:3px 0 10px 0; margin:0px 0px 0px 0px; font-size:12px; font-weight:normal;
+}
+
+/*	Sitemap	*/
+.sitemap_part{
+width:200px;
+height:auto;
+float:left;
+margin:0 50px 0px 50px;
+padding:0 0px 0px 0px;
+}
+
+
+.sitemap_title{
+color:#000000;
+background-color:#BFBFBF;
+letter-spacing:1pt;
+word-spacing:auto;
+font-size:20px;
+text-align:center;
+font-family:arial, helvetica, sans-serif;
+line-height:35px;
+}
+
+.espace_4{
+margin:0px 0px 0px 30px;
+color:#b52025;
+font-weight:bold;
+/*haut	droite	bas	gauche*/
+}
+

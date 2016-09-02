@@ -1,0 +1,113 @@
+/**************************************** SignIn CSS ****************************************/
+
+/**************************************** Structure ****************************************/
+
+section.container{
+	margin-top: 35px;
+	height: auto;
+	width: 100%;
+}
+
+section.left{
+	float: left;
+	width: 50%;
+}
+
+article {
+	margin-left: 40px;
+}
+
+aside{ 
+	float:right;
+	width: 50%;
+}
+
+hr {
+	width: 95%;
+	color: #B52025;
+}
+
+/***************************************** Text *****************************************/
+
+h1 {
+	color:#B52025; 
+	font-size:x-large; 
+	font-weight: bolder;
+}
+
+h2 {
+	color: #BBBBBB;
+	font-size:medium; 
+	font-weight: bolder;
+	text-decoration: underline;
+}
+
+p{
+	font-size: medium;
+}
+
+p.error{
+	font-size: medium;
+	color: #B52025;
+	margin-left: 40px;
+}
+
+#notification_error {
+	display: inline;
+	width: 3%;
+}
+
+
+
+/***************************************** Form *****************************************/
+
+label{
+	width: auto;
+	margin-left: 40px;
+	margin-top: 6px;
+	margin-right: 6px;
+	text-shadow:1px 1px 19px rgba(255,255,255,1);
+	font-weight:normal;
+	font-style:oblique;
+	color:#454545;
+	letter-spacing:1pt;
+	word-spacing:2pt;
+	font-size:10px;
+	text-align:left;
+	font-family:comic sans, comic sans ms, cursive, verdana, arial, sans-serif;
+	line-height:1;
+}
+
+input{
+	width: 75%;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	display: block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+    margin-left: 40px;
+}
+
+input[type="submit"]{
+	display: block;
+	width: 35%;
+	margin-left: 40px;
+	background-color:#B52025;
+	color:#FFFFFF;
+	text-align:center;
+	padding:3px 10px 3px 10px;
+	border:1px black solid;
+	cursor:pointer;
+}
+
+select{
+width: 75%;
+	border: 1px solid #CCCCCC;
+	padding: 5px;
+	font-family: Tahoma, sans-serif;
+	display: block;
+    margin-left: 40px;
+ }
+
+

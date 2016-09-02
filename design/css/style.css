@@ -1,0 +1,174 @@
+/**************************************** General CSS ****************************************/
+
+/**************************************** Structure *****************************************/
+
+body {
+	background:url(../images/bg.gif) repeat;
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#000;
+}
+
+#wrap{
+	width:977px;
+	margin:20px auto auto auto;
+	background:url(../images/center_bg_repeat.gif) repeat-y center;
+}
+
+header{
+	width:960px;
+	margin:auto;
+	height:90px;
+}
+
+.top_corner{
+	width:976px;
+	height:15px;
+	background:url(../images/top_bg.gif) no-repeat center bottom;
+}
+
+.clear{
+	clear:both;
+}
+
+/**************************************** Navigation (Menu) ****************************************/
+
+nav{
+	width:453px;
+	float:right;
+	padding:30px 0 0 0;
+}
+
+nav ul{
+	list-style:none;
+	padding:0px;
+	margin:0px;
+	display:block;
+}
+
+nav ul li{
+	list-style:none;
+	display:inline;
+	float:left;
+	width:auto;
+	padding:0px;
+	font-size:12px;
+}
+
+nav ul li a{
+	float:left;
+	text-decoration:none;
+	padding:0px 10px 0 10px; 
+	margin:0px 4px 0 4px;
+	color:#000;
+	text-align:center; 
+	height:31px; 
+	line-height:31px; 
+}
+
+nav ul li a:hover{
+	background-color:#b52025;
+	color:#fff;
+}
+
+nav ul li a.current{
+	float:left;
+	text-decoration:none;
+	padding:0px 10px 0 10px; 
+	margin:0px 4px 0 4px;
+	color:#fff;
+	text-align:center; 
+	height:31px; 
+	line-height:31px; 
+	background-color:#b52025;
+}
+
+/********************************* Side sliding menu *************************************/
+
+#floatdiv {
+    position:absolute;
+    width:94px;
+    height:229px;
+    top:0;
+    left:0;
+}
+
+#sidebar {
+    position:relative;
+    height:290px;
+    width:94px;
+    margin-left:0px;
+	top:90px;
+}
+#sidebar a img {border: none; }
+
+#sidebar #fb{
+    height:48px;
+    width:48px;
+    position:absolute;
+    left:2px;
+}
+
+#sidebar #twitter {
+    height:48px;
+    width:48px;
+    position:absolute;
+    top:30px;
+    left:2px;
+}
+
+#sidebar #yt {
+    height:48px;
+    width:48px;
+    position:absolute;
+    top:60px;
+    left:2px;
+}
+
+/************************************** Logo/Image *************************************/
+
+#logo{
+	width:350px;
+	padding:10px 0 0 20px;
+	float:left;
+}
+
+/**************************************** Footer ****************************************/
+
+footer{
+clear:both;
+width:960px;
+margin:auto;
+background:url(../images/footer_bg.jpg) no-repeat center;
+height:65px;
+}
+
+.copyright{
+float:left;
+padding:30px 0 0 15px;
+color:#6996c0;
+}
+
+.copyright a{
+color: #2A1C11;
+text-decoration:none;
+}
+
+.footer_links{
+float:right;
+padding:30px 15px 0 0;
+}
+
+footer a{
+text-decoration:none;
+color: #2A1C11;
+padding-left:10px;
+}
+
+.footer_links a:hover{
+text-decoration:underline;
+color: #2A1C11;
+}
+

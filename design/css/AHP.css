@@ -1,0 +1,174 @@
+.left_section{
+width:33%;
+height:auto;
+float:left;
+margin:0 10px 0 20px;
+padding:20px 10px 10px 20px;
+}
+
+.left_section ul
+{
+list-style-type:none;
+padding:0px;
+margin: 10px 0 0 0;
+}
+.left_section ul li
+{
+padding:0 0 30px 0;
+}
+.left_section ul li a{
+margin: 0 0 0 10px;
+text-decoration:none;
+font-size:20px; color:#b52025;
+}
+
+.left_section ul li a:hover{
+color:#B2B2B2;
+}
+
+#profile_img{
+width:130px;
+height:130px;
+float:left;
+padding:2px;
+margin:-50px 0px 10px 0; 
+border:2px #dcdcdc solid ;
+border-radius:20px;
+}
+
+.identification{
+width:33%;
+height:auto;
+margin:0 10px 0 20px;
+padding:20px 10px 10px 20px;
+}
+
+.identification article h1{
+float: left;
+padding:0px 0 10px 0; 
+margin:0px 0 0 0; 
+color:#7D7D7D; 
+font-size:20px; 
+font-weight:normal;
+display: inline;
+}
+
+.identification article {
+float:left;
+display: block;
+margin: 20px 0 0 10px
+}
+.left_section hr
+{
+color: white;
+border: 0;
+background-color: #e6e6e6;
+height: 1px;
+width:96%
+}
+
+.center_section{
+width:21%;
+height:400px;
+float:left;
+margin:-90px 10px 0 10px;
+padding:10px 10px 10px 10px;
+border:1px solid #e1e1e1;
+border-radius:20px;
+}
+
+.right_section{
+border-left:1px solid #e1e1e1;
+width:30%;
+height:auto;
+float:left;
+margin:-100px 20px 0 10px;
+padding:10px 10px 10px 10px;
+}
+
+.shortcut{
+height: 130px;
+width: 130px;
+background-color:#911A1E;
+border:2px #dcdcdc solid ;
+border-radius:20px;
+float:left;
+margin:0 0 10px 10px;
+color:white; 
+font-size:25px; 
+font-weight:normal;
+line-height: 130px;
+text-align:center;
+}
+
+#shortcut_1
+{animation: mytrans 5s ;
+animation-delay:100ms;
+/* Safari and Chrome */
+-webkit-animation:mytrans 5s;}
+#shortcut_2
+{animation:mytrans 5s ;
+animation-delay:300ms;
+/* Safari and Chrome */
+-webkit-animation:mytrans 5s;}
+#shortcut_3
+{animation:mytrans 5s ;
+animation-delay:500ms;
+/* Safari and Chrome */
+-webkit-animation:mytrans 5s;}
+#shortcut_4
+{animation:mytrans 5s ;
+animation-delay:700ms;
+/* Safari and Chrome */
+-webkit-animation:mytrans 5s;}
+#shortcut_5
+{animation:mytrans 5s ;
+animation-delay:900ms;
+/* Safari and Chrome */
+-webkit-animation: mytrans 5s;}
+#shortcut_6
+{animation:mytrans 5s ;
+animation-delay:1100ms;
+/* Safari and Chrome */
+-webkit-animation:mytrans 5s;}
+
+@keyframes mytrans
+{
+from {opacity:0;}
+to {opacity:100;}
+}
+
+@-webkit-keyframes mytrans /* Safari and Chrome */
+{
+from {opacity:0;}
+to {opacity:100;}
+}
+
+@keyframes mytrans2
+{
+to {background-color: grey;}
+from {background-color:grey;}
+to {background-color: #911A1E;}
+}
+
+@-webkit-keyframes mytrans2 /* Safari and Chrome */
+{
+from {background-color:#b52025;}
+to {background-color: #33ADFF;}
+}
+
+.shortcut:hover{
+background-color: #FFFFB8;
+color:#911A1E;
+}
+
+hr{
+color:#b52025;
+width:96%
+}
+
+.wide_section{
+width:98%;
+float:left;
+margin:-5px 0 0 10px;
+}
